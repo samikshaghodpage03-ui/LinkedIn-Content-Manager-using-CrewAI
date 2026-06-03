@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────
+# Autonomous LinkedIn Content Manager
+# Python dependencies
+# ─────────────────────────────────────────────
+
+# Core AI orchestration framework
+crewai>=0.80.0
+
+# Tool integrations for CrewAI agents
+crewai-tools>=0.17.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# OpenAI Python SDK (used by CrewAI under the hood)
+openai>=1.30.0
+
+# Async HTTP client (required by some crewai internals)
+httpx>=0.27.0
+
+# Serialization helpers
+pydantic>=2.7.0
